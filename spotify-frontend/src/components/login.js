@@ -73,7 +73,7 @@ export default class Login extends React.Component {
       height: '2rem',
     }
     if (this.state.redirect) {
-      return (<Redirect to="/"></Redirect>)
+      return (<Redirect to="/music-player/"></Redirect>)
     }
     return (
       <div style={divStyle}>
