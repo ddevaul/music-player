@@ -144,7 +144,7 @@ export default class ListenNow extends React.Component {
 
     if (this.state.sendToLogin) {
       return (
-        <Redirect to="/login"></Redirect>
+        <Redirect to="/music-player/#/login"></Redirect>
       )
     }
     else if (this.state.createPlaylist){

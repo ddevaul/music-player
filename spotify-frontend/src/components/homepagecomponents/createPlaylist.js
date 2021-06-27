@@ -204,7 +204,7 @@ export default class CreatePlaylist extends React.Component {
     }
 
       if (this.state.sendToLogin) {
-        <Redirect to="/login"></Redirect>
+        <Redirect to="/music-player/#/login"></Redirect>
       }
       return (
         <div style={mainDivStyle}>
