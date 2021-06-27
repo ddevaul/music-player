@@ -1,0 +1,9 @@
+install virtual environment, python3 -m venv env
+activate virtual environment: source, env/bin/activate
+install django 
+create users app
+override standard user class
+https://docs.djangoproject.com/en/3.2/topics/auth/customizing/
+install django rest framework, django simple jwt
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#installation
+
